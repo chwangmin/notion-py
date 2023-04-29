@@ -1,7 +1,7 @@
 import setuptools
 
-with open("README.md", "r",encode) as fh:
-    long_description = fh.read(encoding="UTF-8")
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 
 def get_requirements(fname):
